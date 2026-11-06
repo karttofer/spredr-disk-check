@@ -1,0 +1,5 @@
+{
+  "services": {
+    "disk-check": { "port": 8080, "health": "/health", "memory": 256, "region": "eu", "readOnlyRoot": false }
+  }
+}
