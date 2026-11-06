@@ -2,6 +2,9 @@
   "services": {
     "disk-check": {
       "deploy": { "port": 8080, "health": "/health", "memory": 256, "region": "eu", "readOnlyRoot": false }
+    },
+    "disk-check-us": {
+      "deploy": { "port": 8080, "health": "/health", "memory": 256, "region": "us", "readOnlyRoot": false }
     }
   }
 }
