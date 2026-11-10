@@ -1,0 +1,16 @@
+{
+  "$schema": "https://spredr.cloud/schema/spredr.json",
+  "services": {
+    "lab-chain-web": {
+      "deploy": { "port": 8080, "health": "/health", "memory": 256 }
+    },
+    "lab-chain-writer": {
+      "deploy": { "port": 8080, "health": "/health", "memory": 256 },
+      "agent": { "name": "chain-writer", "alone": true }
+    },
+    "lab-chain-helper": {
+      "deploy": { "port": 8080, "health": "/health", "memory": 256 },
+      "agent": { "name": "chain-helper", "alone": true }
+    }
+  }
+}

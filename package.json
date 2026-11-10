@@ -1,0 +1,7 @@
+{
+  "name": "spredr-lab-chain",
+  "private": true,
+  "type": "module",
+  "description": "spredr production lab: a web service and two agents that hand parts of a task to each other",
+  "dependencies": { "@spredr/sdk": "^0.2.0" }
+}
