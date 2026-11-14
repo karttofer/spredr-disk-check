@@ -26,5 +26,5 @@ createServer((request, response) => {
   hits += 1;
   response.setHeader('content-type', 'application/json');
   response.setHeader('cache-control', 'no-store');
-  response.end(JSON.stringify({ version: "patch-5", born, bornAt, bootMs, hits, ticks, aliveS: Math.round(process.uptime()), now: at(), marks, entries: index.size, warm }));
+  response.end(JSON.stringify({ version: "patch-6", born, bornAt, bootMs, hits, ticks, aliveS: Math.round(process.uptime()), now: at(), marks, entries: index.size, warm }));
 }).listen(8080, () => { marks.listening = at(); console.log(`wake-test: booted in ${bootMs} ms as ${born}`); });
