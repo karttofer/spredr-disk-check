@@ -1,7 +1,0 @@
-{
-  "services": {
-    "wake-test": {
-      "deploy": { "port": 8080, "health": "/health", "memory": 256, "region": "us", "onDemand": { "afterMinutes": 5 } }
-    }
-  }
-}

@@ -1,1 +1,1 @@
-{ "name": "wake-test", "private": true, "type": "module" }
+{ "name": "wake-test", "private": true, "type": "module", "scripts": { "start": "node server.js" } }
